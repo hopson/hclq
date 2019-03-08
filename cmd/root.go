@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/mattolenik/hclq/config"
+	"github.com/hopson/hclq/config"
 	"github.com/spf13/cobra"
 )
 

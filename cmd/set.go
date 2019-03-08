@@ -9,8 +9,8 @@ import (
 
 	"github.com/hashicorp/hcl/hcl/ast"
 	"github.com/hashicorp/hcl/hcl/token"
-	"github.com/mattolenik/hclq/config"
-	"github.com/mattolenik/hclq/hclq"
+	"github.com/hopson/hclq/config"
+	"github.com/hopson/hclq/hclq"
 	"github.com/spf13/cobra"
 )
 
@@ -126,7 +126,7 @@ func getTokenType(val string) token.Type {
 }
 
 func init() {
-	SetCmd.PersistentFlags().BoolVarP(&config.ModifyInPlace, "in-place", "i", false, "edit the input file in-place rather than printing to stdout, conflicts with --out")
+	SetCmd.PersistentFlags().BoolVarP(&config.ModifyInPlace, "in-place", "m", false, "edit the input file in-place rather than printing to stdout, conflicts with --out")
 	SetCmd.AddCommand(AppendCmd)
 	SetCmd.AddCommand(PrependCmd)
 	SetCmd.AddCommand(ReplaceCmd)

@@ -28,12 +28,37 @@
   revision = "65a6292f0157eff210d03ed1bf6c59b190b8b906"
 
 [[projects]]
+  digest = "1:0ba64ff939c854fd0a5096ce60f374a30cfd4b124c224fae8756c045dd3e5faa"
+  name = "github.com/hopson/hclq"
+  packages = [
+    "cmd",
+    "config",
+    "hclq",
+    "query",
+  ]
+  pruneopts = "UT"
+  revision = "2ddf7c666d663aaf1f329bbfa420096b34bf919f"
+  version = "0.5.2"
+
+[[projects]]
   digest = "1:870d441fe217b8e689d7949fef6e43efbc787e50f200cb1e70dbca9204a1d6be"
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
   pruneopts = "UT"
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
   version = "v1.0"
+
+[[projects]]
+  digest = "1:e837f2ce1d2c22a4f0079a3e27fd66a76e0929f45952bc496c6337085f099c04"
+  name = "github.com/mattolenik/hclq"
+  packages = [
+    "config",
+    "hclq",
+    "query",
+  ]
+  pruneopts = "UT"
+  revision = "2ddf7c666d663aaf1f329bbfa420096b34bf919f"
+  version = "0.5.2"
 
 [[projects]]
   digest = "1:0028cb19b2e4c3112225cd871870f2d9cf49b9b4276531f03438a88e94be86fe"
@@ -87,6 +112,10 @@
     "github.com/hashicorp/hcl/hcl/printer",
     "github.com/hashicorp/hcl/hcl/token",
     "github.com/hashicorp/hcl/json/parser",
+    "github.com/hopson/hclq/cmd",
+    "github.com/hopson/hclq/config",
+    "github.com/hopson/hclq/hclq",
+    "github.com/hopson/hclq/query",
     "github.com/spf13/cobra",
     "github.com/stretchr/testify/assert",
     "github.com/valyala/fastjson",

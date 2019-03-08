@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mattolenik/hclq/config"
-	"github.com/mattolenik/hclq/hclq"
+	"github.com/hopson/hclq/config"
+	"github.com/hopson/hclq/hclq"
 	"github.com/spf13/cobra"
 )
 

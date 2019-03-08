@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mattolenik/hclq/cmd"
+import "github.com/hopson/hclq/cmd"
 
 func main() {
 	cmd.Execute()
